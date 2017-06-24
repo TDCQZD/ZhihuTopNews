@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="paperviewlibrary-1.0.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.xfangfang/paperviewlibrary/1.0.3/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.xfangfang/paperviewlibrary/1.0.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.xfangfang/paperviewlibrary/1.0.3/1372e48be6f0fb03659d33dea2b3df07575a4fe4/paperviewlibrary-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

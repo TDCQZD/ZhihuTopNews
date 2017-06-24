@@ -1,0 +1,5 @@
+<root>
+    <item name='rx.Observer'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

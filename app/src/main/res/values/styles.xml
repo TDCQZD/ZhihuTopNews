@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Light theme. -->
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="toolbar_background">@color/toolbar_background_light</item>
+        <item name="main_background">@color/background_light</item>
+        <item name="cardview_background">@color/cardview_background_light</item>
+        <item name="menu_header_background">@color/menu_header_light</item>
+        <item name="text_primary">@color/text_light</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Night theme. -->
+    <style name="AppTheme.Night" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="toolbar_background">@color/toolbar_background_dark</item>
+        <item name="main_background">@color/background_dark</item>
+        <item name="cardview_background">@color/cardview_background_dark</item>
+        <item name="menu_header_background">@color/menu_header_dark</item>
+        <item name="text_primary">@color/text_primary_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+    <style name="bottom_tag_style">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:gravity">center</item>
+
+
+        <item name="android:textColor">@drawable/bottom_textcolor_drawable_selector</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="transparent_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

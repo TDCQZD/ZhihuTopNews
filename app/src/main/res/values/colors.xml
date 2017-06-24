@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="s_demo_color_background_red">#FF4343</color>
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="red">#FF0033</color><!--黑色 -->
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="green">#008000</color><!--绿色 -->
+    <!--Light Color-->
+    <color name="toolbar_background_light">#3F51B5</color>
+    <color name="background_light">#ffffff</color>
+    <color name="cardview_background_light">#fafafa</color>
+    <color name="text_light">#000000</color>
+    <color name="text_secondary_light">#b3ffffff</color> <!-- 70% -->
+    <color name="menu_header_light">@android:color/holo_blue_dark</color>
+    <!--Night Color-->
+    <color name="toolbar_background_dark">#ff292929</color>
+    <color name="background_dark">#ff333333</color>
+    <color name="cardview_background_dark">#ff444444</color>
+    <color name="text_primary_dark">#fafafa</color> <!-- 87% -->
+    <color name="text_secondary_dark">#40808080</color> <!-- 54% -->
+    <color name="menu_header_dark">#ff333333</color>
+
+
+    <!-- Others-->
+    <color name="mid_grey">#40808080</color> <!-- RecycleView Item新闻点击时的前景色-->
+    <color name="divider">#1f000000</color> <!-- RecycleView Item分割线 12% black-->
+
+
+
+
+</resources>

@@ -1,0 +1,5 @@
+<root>
+    <item name='rx.functions.Func1'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

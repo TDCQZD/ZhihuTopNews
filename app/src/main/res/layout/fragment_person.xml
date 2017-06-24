@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/bt_login_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录/注册" />
+
+    <Button
+        android:id="@+id/bt_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ登陆" />
+
+    <Button
+        android:id="@+id/bt_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刷脸登陆" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="使用第三方账号快捷登录"
+        android:textColor="@color/s_color_font_contant"
+        android:textSize="@dimen/s_size_font_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="36dp"
+            android:background="@drawable/superid_demo_login_qq_ico_normal" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="36dp"
+            android:background="@drawable/button_demowx" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_demosp"
+            android:onClick="btn_superidlogin" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="36dp"
+            android:background="@drawable/button_demowb" />
+    </LinearLayout>
+</LinearLayout>
